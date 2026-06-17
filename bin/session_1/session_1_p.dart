@@ -9,7 +9,7 @@ void main() {
   print("the average =${sum / (numbers.length)}");
   //! Q.no 5 mid
   Map<String, int> studentDegrees = {"math": 90, "english": 98, "science": 89};
-
+  
   var theHighest = studentDegrees["math"];
   for (var degree in studentDegrees.values) {
     if (degree > theHighest!) {

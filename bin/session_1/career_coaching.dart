@@ -21,7 +21,7 @@ void main() {
   print("the length of the list is ${numbers.length}");
   */
   // ! exercise 5
-  List nums = [1, 2, 3, 4, 7, 4, 676, 98, 34, 5, 6];
+  List<int> nums = [1, 2, 3, 4, 7, 4, 676, 98, 34, 5, 6];
   /*
   nums.add(5);
   nums.removeAt(0);
@@ -73,12 +73,14 @@ void main() {
   */
 
   /*
-  Map info = {
+  Map<String, dynamic> info = {
     "name": "Seif-Eldin",
     "age": 14,
     "grade": 8,
     "email": "seifeldinmohamed640@gmail.com",
   };
+  print(info["email"])
+
   print(info.keys.toList().contains("email"));
   */
   var numsSquared = nums.map((number) {
