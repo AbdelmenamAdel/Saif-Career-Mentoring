@@ -1,0 +1,12 @@
+
+Make a user information Map (name , age , grade, address , subjects ,
+favorite_car)
+
+1. check if the user age is > 18 and print for him/her that 
+   its allowed to get inside the place 
+
+2. print the user data
+
+3. for loop to print all keys
+
+4. for loop to print all subjects
