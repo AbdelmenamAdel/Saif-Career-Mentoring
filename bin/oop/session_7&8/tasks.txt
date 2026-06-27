@@ -1,0 +1,122 @@
+# 🚀 Task 1: Student Class
+
+Create a class called `Student`.
+
+## Properties
+- name
+- age
+- grade
+
+## Requirements
+
+### Constructors
+
+1. **Default Constructor**
+   - name = "Unknown"
+   - age = 0
+   - grade = "Not Assigned"
+
+2. **Parameterized Constructor**
+   - Receives all properties from the user.
+
+### Methods
+
+Create a method called:
+
+```dart
+displayInfo()
+
+
+
+===========================================
+
+````markdown
+# 🏦 Task 2: Bank Account
+
+Create a class called `BankAccount`.
+
+## Properties
+- ownerName
+- accountNumber
+- balance
+
+## Requirements
+
+### Constructors
+
+1. **Default Constructor**
+   - ownerName = "Unknown"
+   - accountNumber = "0000"
+   - balance = 0
+
+2. **Parameterized Constructor**
+   - Receives all properties.
+
+### Methods
+
+Create a method:
+
+```dart
+deposit(double amount)
+
+================================
+
+
+---
+
+````markdown
+# 💼 Task 3: Employee Management
+
+Create a class called `Employee`.
+
+## Properties
+- name
+- age
+- salary
+- department
+
+## Requirements
+
+### Constructors
+
+1. **Default Constructor**
+   - name = "Unknown"
+   - age = 0
+   - salary = 0
+   - department = "Not Assigned"
+
+2. **Parameterized Constructor**
+   - Receives all properties.
+
+### Methods
+
+Create a method:
+
+```dart
+increaseSalary(double amount)
+```
+
+It should increase the employee's salary.
+
+Create another method:
+
+```dart
+displayInfo()
+```
+
+It should print all employee information.
+
+### In `main()`
+
+- Create one employee using the Default Constructor.
+- Create two employees using the Parameterized Constructor.
+- Increase the salary of one employee.
+- Print the information of all employees.
+
+## ⭐ Bonus Challenge
+
+Prevent creating an employee with:
+- Negative age.
+- Negative salary.
+
+Handle these cases in a suitable way.

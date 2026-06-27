@@ -1,0 +1,4 @@
+1. git init // for the first time
+2. add 
+3. commit. with message
+4. push
